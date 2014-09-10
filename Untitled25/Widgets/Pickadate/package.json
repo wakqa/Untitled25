@@ -1,0 +1,33 @@
+{
+    "name": "Pickadate",
+    "studioName": "Pickadate",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "author": "Widget Developer",
+    "contributors": [
+        "Developer 1",
+        "Developer 2"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developer/Widget.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "Pickadate/libs/legacy.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Pickadate/libs/picker.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Pickadate/libs/picker.date.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Pickadate/libs/picker.time.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Pickadate/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},        
+        {"id": "Pickadate/css/default.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Pickadate/css/default.date.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Pickadate/css/default.time.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Pickadate/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Pickadate/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}

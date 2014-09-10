@@ -1,0 +1,8 @@
+.waf-widget.waf-progress {
+border:1px solid black;
+}
+
+.waf-widget.waf-progress div{
+	background : blue;
+	height: 100%;
+}

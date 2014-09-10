@@ -1,0 +1,29 @@
+{
+    "name": "FaceRecognition",
+    "studioName": "FaceRecognition",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "author": "Widget Developer",
+    "contributors": [
+        "Developer 1",
+        "Developer 2"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developer/Widget.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "FaceRecognition/css/styles.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FaceRecognition/js/facedetection/ccv.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FaceRecognition/js/facedetection/face.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FaceRecognition/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FaceRecognition/js/jquery.facedetection.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FaceRecognition/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
